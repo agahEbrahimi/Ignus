@@ -1,0 +1,35 @@
+      Node *node;
+      Modifier *modif; 
+      BaseStatement *basestmt;
+      Statement *stmt;
+      Expression *expr;
+      ProgramBlock  *prgmblock;
+      Program *program;
+      Block *block;
+      EnhancedBlock *eblock;
+      Class *cls;
+      DeclGroup *declGroup;
+      Declaration *var_decl;
+      DeclWAssign *var_declWAssign;
+      Assignment *assign;
+      Identifier *ident;
+      Control *control;
+      ControlStatements *controlStmt;
+      ControlLoop *controlLoop;
+      SecControlStatements *seccontrolstmt;
+      ExpressionStatement *exprstmt;
+      EmpMethodDecl *emthddecl;
+      MethodDecl *mthddecl;
+      MethodCall *mthdcall;
+      EmpMethodCall *emthdcalls
+      typedef std::vector<Statement*> stmtVec;
+      typedef std::vector<Class*> clssVec;
+      typedef std::vector<BaseStatement*> baseStmtVec;
+      typedef std::vector<Expression*> expVec;
+      typedef std::vector<Declaration*> declVec;
+      std::string *string;
+      int *Integer;
+      double *Double
+      char *char; 
+      boolean *Bool;
+      int token;

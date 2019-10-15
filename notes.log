@@ -1,0 +1,16 @@
+Things that need to be added after we make sure everything else is working:
+    1. Do- WHile
+    2. Continue and Break 
+    3. Try Catch
+    5. func_decl - Lambda functions
+    7. Fix the %union section in bison.y
+    9. Switch case.
+    Sample Code: 
+    |    TSWITCH TLPAREN expr TRPAREN  TLBRACE ctrl_c TRBRACE {};
+    ctrl_c : TCASE expr TCOLON block {}|ctrl_c TCASE expr TCOLON block {};
+    TFOR TWHILE TDO TCASE TSWITCH TIF TCONT TBREAK TTRY TCATCH TELSE
+
+    Finished bug fixes:
+    6. Address the empty arugment issue in node.h from within bison.y - Done
+    4. Paranthesis Precedance - Done
+    8. Fix the modif so it works with node.h - Done
